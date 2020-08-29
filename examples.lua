@@ -303,22 +303,22 @@ f = math.floor(x)
 --get absolute value
 a = math.abs(x)
 
---=================================== math ===================================
+--=================================== string ===================================
 --string functions
 
 --length of string
 l = str:len()
 
---concat two string
+--concat two strings
 str3 = str1 .. str2
 
 --convert to all upper case
 str = string.upper(str)
 
---convert to lower
+--convert to lower case
 str = string.lower(str)
 
---make a string by repeating str n times
+--make a string by repeating str n number of times
 str = string.rep(str,n)
 
 --return a formatted string
