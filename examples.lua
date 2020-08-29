@@ -336,6 +336,6 @@ match = str:match(pattern)
 str = str:gsub(pattern,replacement,[n])
 
 --iterate over each match in str
-for math in str:gmatch(pattern) do
+for match in str:gmatch(pattern) do
     --do stuff
 end
